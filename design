@@ -1,0 +1,31 @@
+# use case diagram
+Screen0
+    - play
+    - quit
+
+Game screen
+    - board
+    - dice
+    - players
+    - player roll dice
+    - update player position
+    - if player won
+        - show player won
+        - display Screen0
+    - switch turn
+
+Player Won screen
+    - play again
+    - quit
+
+# functional diagram
+- show_screen0
+- show_game_screen
+- show_player_won_screen
+
+- play
+
+- roll_dice
+- update_player_position
+- check_if_won
+- switch_turn
